@@ -1,0 +1,98 @@
+@layer components {
+
+  .label-class {
+    @apply transition-all duration-500 bg-white flex-col justify-center items-center flex w-11/12 h-16 text-gray-300 space-y-2 font-bold font-mono subpixel-antialiased;
+    @apply lg:w-2/12 border hover:border-green-300 transform hover:scale-95 duration-300 hover:shadow-inner;
+  }
+
+  .label-class-dark {
+    @apply transition-all duration-500 bg-gray-800 flex-col justify-center items-center flex w-11/12 h-16 text-gray-200 space-y-2 font-bold font-mono subpixel-antialiased;
+    @apply lg:w-2/12 border-transparent hover:border-green-300 transform hover:scale-95 duration-300 hover:shadow-inner;
+  }
+
+  .label-class-login {
+    @apply bg-white flex-col justify-center items-center flex w-11/12 h-16 text-gray-300 space-y-2 font-bold font-mono subpixel-antialiased;
+  }
+
+  .edit-state {
+    @apply transform lg:translate-y-1/2 transition-all duration-500;
+  }
+
+  .wallet {
+    @apply h-32;
+  }
+
+  .card-title {
+    @apply font-mono font-bold text-gray-500 text-center w-1/2;
+  }
+
+  .card-title-dark {
+    @apply font-mono font-bold text-gray-100 text-center w-1/2;
+  }
+
+  .login-button {
+    @apply focus:outline-none bg-gradient-to-r from-green-400 to-blue-500 rounded-lg w-24 h-12 text-white font-mono subpixel-antialiased;
+  };
+
+  .transitionAll {
+    @apply transition-all duration-500;
+  }
+
+  .expense-button {
+    @apply focus:outline-none bg-gradient-to-r from-green-400 to-blue-500 rounded-lg m-2 w-3/4 h-16 text-white font-mono subpixel-antialiased hover:from-pink-500 hover:shadow-xl;
+  }
+  .edit-moment {
+    @apply bg-gradient-to-r from-red-400 to-blue-300 hover:from-indigo-500;
+  }
+
+  .card-container {
+    @apply rounded-xl w-11/12 h-auto lg:w-3/12 transform hover:scale-105 hover:shadow-xl border;
+    @apply hover:border-green-100 transition-transform duration-500 flex flex-col items-center p-4 m-4 shadow-inner;
+  }
+
+  .card-container-dark {
+    @apply rounded-xl w-11/12 h-auto lg:w-3/12 transform hover:scale-105 hover:shadow-xl border border-transparent bg-gray-800;
+    @apply hover:border-green-400 transition-transform duration-500 ease-in-out flex flex-col items-center p-4 m-4 shadow-inner;
+  }
+  .delete-icon {
+    @apply transform fill-current m-2 hover:text-red-500 hover:scale-125 transition-all duration-500;
+  }
+  .delete-icon-dark {
+    @apply transform fill-current text-gray-100 m-2 hover:text-red-500 hover:scale-125 transition-all duration-500;
+  }
+
+  .edit-icon{
+    @apply transform fill-current m-2 hover:text-yellow-500 transition-all hover:scale-125 duration-500;
+  }
+
+  .edit-icon-dark {
+    @apply transform fill-current text-gray-100 m-2 hover:text-yellow-500 transition-all hover:scale-125 duration-500;
+  }
+  .card-div {
+    @apply flex w-11/12 h-auto flex-row justify-between py-1.5 items-center;
+  }
+  .click-animation {
+    animation-name: slidein;
+    animation-duration: 0.5s;
+  }
+
+  .input-class {
+    @apply transition-all duration-300 text-center lg:w-2/4 w-11/12  h-auto rounded text-xs;
+    @apply border-transparent font-mono box-content subpixel-antialiased;
+  };
+
+ @keyframes slidein {
+  from {
+    transform: scale(1)
+  }
+
+  50% {
+    transform: scale(0.8)
+  }
+
+  to {
+    trasnform: scale(1)
+  }
+}
+
+}
