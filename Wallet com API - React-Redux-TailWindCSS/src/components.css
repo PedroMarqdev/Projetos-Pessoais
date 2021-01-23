@@ -75,6 +75,12 @@
     animation-name: slidein;
     animation-duration: 0.5s;
   }
+  
+  .input-class {
+    @apply transition-all duration-300 text-center lg:w-2/4 w-11/12  h-auto rounded text-xs;
+    @apply border-transparent font-mono box-content subpixel-antialiased;
+  };
+
  } 
 
  @keyframes slidein {

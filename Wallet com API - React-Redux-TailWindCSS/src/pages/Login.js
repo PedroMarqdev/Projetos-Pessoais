@@ -30,7 +30,7 @@ class Login extends React.Component {
       <div className="flex bg-loginBackground bg-100% bg-center bg-no-repeat h-screen items-center justify-center">
         <div className=" flex h-3/4 w-3/4 lg:h-auto lg:w-auto justify-center rounded-lg shadow-xl">
           <form className="flex w-auto h-auto m-12 items-center justify-center flex-col space-y-10">
-          <img className="animate-pulse" src="https://fontmeme.com/permalink/210119/644a7733ccebbad700b49720d0797475.png" alt="pixel-fonts" />
+            <img className="animate-pulse" src="https://fontmeme.com/permalink/210119/644a7733ccebbad700b49720d0797475.png" alt="pixel-fonts" />
             <label className="label-class-login" htmlFor="email">
               Email
               <input
