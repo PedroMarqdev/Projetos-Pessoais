@@ -1,0 +1,30 @@
+@layer base {
+
+  .card-value {
+    @apply font-mono font-bold text-gray-700 text-xl text-center w-1/2;
+  }
+
+  .card-value-dark {
+    @apply font-mono font-bold text-gray-300 text-xl text-center w-1/2 transition-all duration-300;
+  }
+
+  .input-class {
+    @apply transition-all duration-300 text-center lg:w-2/4 w-11/12  h-auto rounded text-xs;
+    @apply border-transparent font-mono box-content subpixel-antialiased;
+  };
+
+  .input-class-dark {
+    @apply transition-all duration-300 bg-gray-800 text-gray-200 text-center lg:w-2/4 w-11/12  h-auto rounded text-xs;
+    @apply border border-transparent font-mono box-content subpixel-antialiased;
+
+  }
+
+  .description-class {
+    @apply font-bold font-sans text-xl text-gray-600 antialiased tracking-wider py-4 text-center break-words h-auto;
+  }
+
+  .description-class-dark {
+    @apply font-bold font-sans text-xl text-gray-100 antialiased tracking-wider py-4 text-center break-words h-auto;
+  }
+
+}
