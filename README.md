@@ -4,6 +4,7 @@ Aqui estão os projetos em que mais me dediquei para comprovar meus ensinamentos
 >## Wallet Câmbio (Redux, React, Tailwind CSS)
 Nesse projeto, sua ideia central era criar uma carteira, primeiramente, com uma tela simples de login, a qual precisava ter uma validação de email e senha.
 Aliado a isso, logo após, deveria ter interface de carteira, que poderíamos adicionar nossa despesa e adicionar a carteira. 
+
 Features:
 - Tema escuro
 - Adicionar/Excluir e editar as despesas
