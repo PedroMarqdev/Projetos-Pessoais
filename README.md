@@ -13,6 +13,8 @@ Features:
 - Soma dos valores no médio superior da tela em BRL (Real Brasileiro).
 - Tailwind CSS para melhor aparência e uso do CSS!
 
+> Caso haja problemas de login, utilize: alguem@email.com e a senha: 123456
+
 [Repositório](https://github.com/PedroMarqdev/Projetos-Pessoais/tree/main/Wallet%20com%20API%20-%20React-Redux-TailWindCSS)
  | [Site](https://pedromarqdev.github.io/walletredux/)
 ---
