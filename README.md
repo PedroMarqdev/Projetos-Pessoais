@@ -6,7 +6,7 @@ Nesse projeto, sua ideia central era criar uma carteira, primeiramente, com uma 
 Aliado a isso, logo após, deveria ter interface de carteira, que poderíamos adicionar nossa despesa e adicionar a carteira. 
 
 Features:
-- Tema escuro
+- Tema escuro/claro
 - Adicionar/Excluir e editar as despesas
 - Aplicação de Mobile First (Layout responsivo)
 - Integração a uma API que sempre retornará o câmbio atual da moeda (Redux-thunk)
