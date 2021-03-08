@@ -23,11 +23,10 @@ Features:
 O projeto gira em torno de um aplicativo de receitas tanto para bebidas e comidas. Nele, você pode ver instruções, explorar por ingredientes, pesquisar por letra etc. Nele, também há a possibilidade de favoritar receitas, compartilhar e ver suas receitas prontas! E muito mais.
 
 Features:
-- Adicionar/Excluir e editar as despesas
 - Aplicação de Mobile First (Layout responsivo)
 - Integração a duas APIS (Redux-thunk)
 - Integração com o LocalStorage para tornar o aplicativo usual(Sem back-end)
-- Tailwind CSS para melhor aparência e uso do CSS!
+- Tailwind CSS para reponsividade e construção do visual UI/UX
 
 > Caso haja problemas de login, utilize: alguem@email.com e a senha: 123456
 
